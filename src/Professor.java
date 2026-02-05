@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.Date;
 
 public class Professor implements Comparable<Professor> {
 

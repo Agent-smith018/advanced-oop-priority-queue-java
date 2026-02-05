@@ -11,9 +11,9 @@ import java.util.List;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-    Department dept = new Department(new ArrayList<>());
-    loadCourses("./TextFile/courses_f22.txt", dept);
-    PriorityQueue<Professor> profQueue = loadProfs("./TextFile/profs.txt", dept);
+        Department dept = new Department(new ArrayList<>());
+        loadCourses("./TextFile/courses_f22.txt", dept);
+        PriorityQueue<Professor> profQueue = loadProfs("./TextFile/profs.txt", dept);
 
         runMatching(profQueue, dept);
     }
